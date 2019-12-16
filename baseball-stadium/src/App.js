@@ -2,7 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Dashboard from "./components/Dashboard";
-import Display from "./components/Display";
+
+exports.sum = function (a, b) {
+  return a + b;
+}
 
 function App() {
   return (
